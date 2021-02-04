@@ -1,9 +1,8 @@
 import React from 'react'
 import If from './If'
 
-export default props => {
-    return (
-            <div>
+export default function CondicionalComIf (props){
+    return  <div>
                 <h2>O número é: {props.numero}</h2>
                 <If test={props.numero % 2 === 0}>
                     <span>Par</span>
@@ -12,6 +11,4 @@ export default props => {
                     <span>Ímpar</span>
                 </If>
             </div>
-        )
 }
-    

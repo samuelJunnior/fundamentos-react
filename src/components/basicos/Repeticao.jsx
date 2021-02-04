@@ -2,7 +2,7 @@ import React from 'react'
 
 import Products from '../../dados/Products.js'
 
-export default props => {
+export default function Repeticao (props){
     
     function getProdusctsListItem(){
         return Products.map( prod => {
