@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Products from '../dados/Products.js'
+import Products from '../../dados/Products.js'
 
 export default props => {
     
